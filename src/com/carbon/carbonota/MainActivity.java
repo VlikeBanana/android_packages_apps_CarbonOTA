@@ -49,24 +49,24 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.paranoid.paranoidota.ListItems.PreferenceItem;
-import com.paranoid.paranoidota.Utils.NotificationInfo;
-import com.paranoid.paranoidota.activities.SettingsActivity;
-import com.paranoid.paranoidota.fragments.ChangelogFragment;
-import com.paranoid.paranoidota.fragments.GappsFragment;
-import com.paranoid.paranoidota.fragments.RomFragment;
-import com.paranoid.paranoidota.fragments.UpdateFragment;
-import com.paranoid.paranoidota.helpers.DownloadHelper;
-import com.paranoid.paranoidota.helpers.DownloadHelper.DownloadCallback;
-import com.paranoid.paranoidota.helpers.NotificationHelper;
-import com.paranoid.paranoidota.helpers.NotificationHelper.NotificationCallback;
-import com.paranoid.paranoidota.helpers.RebootHelper;
-import com.paranoid.paranoidota.helpers.RecoveryHelper;
-import com.paranoid.paranoidota.updater.GappsUpdater;
-import com.paranoid.paranoidota.updater.RomUpdater;
-import com.paranoid.paranoidota.updater.Updater;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
-import com.paranoid.paranoidota.updater.Updater.UpdaterListener;
+import com.carbon.carbonota.ListItems.PreferenceItem;
+import com.carbon.carbonota.Utils.NotificationInfo;
+import com.carbon.carbonota.activities.SettingsActivity;
+import com.carbon.carbonota.fragments.ChangelogFragment;
+import com.carbon.carbonota.fragments.GappsFragment;
+import com.carbon.carbonota.fragments.RomFragment;
+import com.carbon.carbonota.fragments.UpdateFragment;
+import com.carbon.carbonota.helpers.DownloadHelper;
+import com.carbon.carbonota.helpers.DownloadHelper.DownloadCallback;
+import com.carbon.carbonota.helpers.NotificationHelper;
+import com.carbon.carbonota.helpers.NotificationHelper.NotificationCallback;
+import com.carbon.carbonota.helpers.RebootHelper;
+import com.carbon.carbonota.helpers.RecoveryHelper;
+import com.carbon.carbonota.updater.GappsUpdater;
+import com.carbon.carbonota.updater.RomUpdater;
+import com.carbon.carbonota.updater.Updater;
+import com.carbon.carbonota.updater.Updater.PackageInfo;
+import com.carbon.carbonota.updater.Updater.UpdaterListener;
 
 public class MainActivity extends Activity implements DownloadCallback, NotificationCallback,
         UpdaterListener {
