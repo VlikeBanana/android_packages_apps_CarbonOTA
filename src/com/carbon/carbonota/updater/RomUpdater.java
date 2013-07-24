@@ -30,7 +30,7 @@ import com.carbon.carbonota.http.URLStringReader;
 
 public class RomUpdater extends Updater {
 
-    public static final String PROPERTY_VERSION = "ro.modversion";
+    public static final String PROPERTY_VERSION = "ro.carbon.version";
 
     private static final String URL = "http://api.paranoidandroid.co/updates/%s?v=%s";
 
