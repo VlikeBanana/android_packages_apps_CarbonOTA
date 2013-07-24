@@ -47,7 +47,7 @@ public class Utils {
 
     public static final String FILES_INFO = "com.carbon.carbonota.RomUtils.FILES_INFO";
     public static final String CHECK_DOWNLOADS_FINISHED = "com.carbon.carbonota.RomUtils.CHECK_DOWNLOADS_FINISHED";
-    public static final String MOD_VERSION = "ro.modversion";
+    public static final String MOD_VERSION = "ro.carbon.version";
     public static final int ALARM_ID = 122303221;
 
     public static class NotificationInfo implements Serializable {
