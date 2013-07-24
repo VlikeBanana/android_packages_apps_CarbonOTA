@@ -199,7 +199,7 @@ public class Utils {
 
     public static boolean isSystemApp(Context context) throws Exception {
         PackageManager pm = context.getPackageManager();
-        android.content.pm.PackageInfo info = pm.getPackageInfo("com.paranoid.paranoidota",
+        android.content.pm.PackageInfo info = pm.getPackageInfo("com.carbon.carbonota",
                 PackageManager.GET_ACTIVITIES);
         ApplicationInfo aInfo = info.applicationInfo;
         String path = aInfo.sourceDir.substring(0, aInfo.sourceDir.lastIndexOf("/"));
